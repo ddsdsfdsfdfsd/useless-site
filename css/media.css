@@ -1,0 +1,338 @@
+    @media (max-width: 1200px) {
+    .gazprombox .city{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .container{
+        max-width: 80%;
+    }
+    .row{
+        margin: 0;
+    }
+
+    .smartestproject h2{
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .gazprombox .city{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .boxbox{
+        width: 280px;
+    }
+
+    .crooked .row{
+        padding: 53px 53px;
+    }
+}
+
+@media (max-width: 922px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 646px;
+    }
+    
+    .col-4{
+        width: 50%;
+    }
+
+    .col-6{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .contact-box .second{
+        width: 70%;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .second2{
+        color: #F7654A;
+        font-size: 16px;
+        font-weight: bold;
+        height: 100%;
+    }
+
+    .col-3{
+        width: 50%;
+    }
+
+    .box{
+        margin-bottom: 40px;
+    }
+
+    .crooked{
+        margin-top: -150px;
+    }
+
+    #projects{
+        margin-top: 200px
+    }
+    
+    .mobile-btn{
+        display: flex;
+        z-index: 2;
+    }
+
+    .nav{
+        position: fixed;
+        right: -100%;
+        height: 100%;
+        width: 100%;
+        top:0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        background: linear-gradient(to right, #d9a7c7, #fffcdc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        transition: .5s;
+        row-gap: 30px;
+    }
+
+    .show-nav{
+        right: 0;
+    }
+
+    .imageicons ul li{
+    font-size: 40px;
+    }
+
+    .slick-prev{
+        display: none;
+    }
+
+    .slick-next{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .container, .main-wrap{
+        max-width: 90%;
+    }
+
+    .col-4{
+        width: 100%;
+    }
+
+    .col-3{
+        width: 50%;
+    }
+
+    .ruwork{
+        max-width: 90%;
+    }
+
+    .maintext p{
+        text-align: center;
+    }
+
+    .gazprombox .city{
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .maintext h1{
+        font-size: 32px;
+    }
+
+    .boxbuild{
+        width: 120px;
+    }
+    .boxbuild h3{
+        font-size: 12px;
+    }
+
+    .ruwork h2{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .ruwork p{
+        font-size: 20px;
+    }
+
+    .rev{
+        margin-bottom: 60px;
+    }
+
+    .workwith h2{
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .workwith h3{
+        font-size: 18px;
+    }
+
+    .company p{
+        font-size: 12px;
+    }
+
+    .row1img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .row2img{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .coll-3{
+        width: 50%;
+    }
+    .coll-3 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #answers{
+        padding-top: 100px;
+        padding-bottom: 250px;
+    }
+
+    .workwith{
+        margin-bottom: 30px;
+    }
+
+    .workwithus{
+        flex-direction: column;
+    }
+
+    .smartest{
+        flex-direction: column;
+    }
+
+    .smartestproject h3{
+        margin-bottom: 40px;
+    }
+
+}
+
+@media(max-width: 390px) {
+    .container {
+        max-width: 90%;
+    }
+    #building{
+        padding: 50px 0;
+    }
+
+    #images{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    #reviews{
+        padding: 50px 0;
+    }
+
+    #contacts{
+        padding: 50px 0;
+    }
+
+    .maintext p{
+        text-align: center;
+    }
+
+
+    .imaages{
+        display: flex;
+        justify-content: center;
+    }
+
+    .imaages img{
+        align-self: center;
+        width: 171px;
+        margin-bottom: 20px;
+    }
+
+    .boxbuild h3{
+        font-size: 12px;
+    }
+
+    .col-3{
+        width: 100%;
+    }
+
+    .boxbuild h3{
+        font-size: 12px;
+    }
+
+    #age{
+        margin-bottom: 600px;
+    }
+
+    .boxcont{
+        padding: 20px 0;
+    }
+
+    .boxbuild{
+        width: 132px;
+    }
+    
+    .gazprombox .city{
+        width: 100%;
+    }
+
+    .imaages{
+        height: 500px;
+    }
+
+    .imaages img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+@media(max-width: 375px) {
+    .container {
+        max-width: 276px;
+    }
+
+    .boxbuild h3{
+        font-size: 12px;
+    }
+
+    #age{
+        margin-bottom: 600px;
+    }
+
+    .boxcont{
+        padding: 20px 0;
+    }
+
+    .boxbuild{
+        width: 132px;
+    }
+
+}
+
+@media(max-width: 280px) {
+    .container {
+        max-width: 240px;
+    }
+}

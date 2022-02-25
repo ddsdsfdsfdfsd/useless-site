@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* неизменные классы со свойствами */
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.firstrow {
+    /* margin: 0 -15px 30px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secondrow {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.secondrow {
+    margin: 0 -15px;
+}
+
+.col-12 {
+    width: 100%;
+    padding: 0 0;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 20px;
+}
+
+.col-4 {
+    width: 33.3333%;
+    padding: 0 20px;
+}
+
+.col-6 {
+    width: 33.3333%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+/* неизменные классы со свойствами */
+
+/* секция баннер */
+
+#banner {
+    background-image: url(../imgs/Rectangle.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.imageicons ul {
+    display: flex;
+    column-gap: 20px;
+    list-style: none;
+}
+
+.imageicons ul li {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.imageicons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imageicons img:nth-child(1) {
+    width: 60px;
+    height: 60px;
+}
+
+.imageicons img:nth-child(2) {
+    width: 50px;
+    height: 50px;
+}
+
+.maintext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 192px;
+    margin-bottom: 266px;
+    color: white;
+}
+
+.maintext h1 {
+    margin-bottom: 35px;
+    font-size: 64px;
+    display: flex;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.maintext p {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.imageicons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+/* секция баннер */
+
+/* секция возраст комании */
+
+#age {
+    padding: 100px 0;
+    height: 300px;
+    width: 100%;
+}
+
+.crooked {
+    margin-top: -250px;
+}
+
+.crooked .row {
+    position: relative;
+    background: #F7F7F7;
+    padding: 53px 100px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.twentysix {
+    font-size: 72px;
+    margin-bottom: 25px;
+    color: #F7654A;
+}
+
+.crooked .row .col-3 .box .age {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.crooked .row .col-3 .box p {
+    font-size: 18px;
+    color: #999999;
+}
+
+/* секция возраст комании */
+
+/* секция проекты */
+
+#projects {
+    padding: 100px 0;
+    background-color: white;
+}
+
+.gazprombox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gazprombox .city {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+
+.gazprombox img {
+    margin-top: 45px;
+    width: 55px;
+    height: 6px;
+}
+
+.gazprombox h2 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.gazprombox p {
+    font-size: 16px;
+    color: #999999;
+    margin-top: 20px;
+}
+
+/* секция проекты */
+
+/* секция запрос */
+
+#request {
+    padding: 100px 0;
+    background: #F7654A;
+}
+
+.requests {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: column;
+}
+
+.smartest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.quest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 49px;
+    align-items: center;
+}
+
+.quest button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.quest button:hover {
+    padding: 15px 20px;
+    background: black;
+    color: white;
+}
+
+.smartestproject {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.smartestproject h2 {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.smartestproject h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* секция запрос */
+
+/* секция постройки */
+
+#building {
+    padding: 100px 0;
+}
+
+.ourwork h2 {
+    margin-bottom: 66px;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+.boxbuild {
+    background: #F7F7F7;
+    height: 250px;
+}
+
+.boxbuild {
+    width: 100%;
+}
+
+.boxbuild img {
+    width: 60px;
+    height: 40px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.boxcont {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.boxbuild h3 {
+    font-size: 21px;
+}
+
+
+.secondrow {
+    display: flex;
+    flex-direction: row;
+}
+
+/* секция постройки */
+
+/* секция картинок */
+
+#images {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* background-image: url(../imgs/Rectangle\ 3.png);
+    background-repeat: repeat; */
+}
+
+.imaaages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row1img {
+    display: flex;
+    flex-direction: row;
+}
+
+.row2img {
+    display: flex;
+    flex-direction: row;
+}
+
+.coll-3 {
+    width: 25%;
+}
+
+.coll-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.images-row {
+    margin: 0;
+}
+
+/* секция картинок */
+
+/* секция вопросов */
+
+#answers {
+    padding: 100px 0;
+}
+
+.ruwor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.ruwork {
+    width: 100%;
+    height: 452px;
+}
+
+.ruwork h2 {
+    font-size: 36px;
+    text-align: end;
+    margin-bottom: 40px;
+}
+
+.two49 {
+    display: flex;
+    align-self: center;
+    color: #F7654A;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 15px;
+
+}
+
+.two49 img {
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.loremipsum {
+    color: #999999;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* секция вопросов */
+
+/* секция партнеров */
+
+#partners {
+    background: #404149;
+    padding: 100px 0;
+}
+
+.part {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxpartners {
+    color: white;
+    text-align: center;
+}
+
+.boxpartners h2 {
+    padding-bottom: 40px;
+}
+
+.imaages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imaages img {
+    width: 170px;
+    height: 61px;
+    margin-bottom: 50px;
+}
+
+
+/* секция партнеров */
+
+/* секция отзывов */
+
+#reviews {
+    padding: 100px 0;
+}
+
+.feedback {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rev {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.review h2 {
+    font-size: 36px;
+    padding-top: 50px;
+    padding-bottom: 64px;
+    text-align: center;
+}
+
+.lorem {
+    background: #F7F7F7;
+    margin-bottom: 30px;
+}
+
+.lorem img {
+    padding-left: 28px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.lorem p {
+    padding-left: 28px;
+    padding-bottom: 40px;
+    width: 90%;
+    color: #999999;
+}
+
+.ivan p {
+    font-size: 19px;
+}
+
+.ivan span {
+    color: #F7654A;
+    ;
+}
+
+/* секция отзывов */
+
+
+/* секция работы */
+#work {
+    padding: 100px 0;
+    background: #F7654A;
+}
+
+.workwithus {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.quest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 49px;
+}
+
+.quest button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: ease 0.5s;
+}
+
+.quest button:hover {
+    padding: 15px 20px;
+    background: black;
+    color: white;
+}
+
+.workwith {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.workwith h2 {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.workwith h3 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+/* секция работы */
+
+
+/* секция контактов */
+
+#contacts {
+    padding: 100px 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact h2 {
+    align-self: center;
+    padding-bottom: 60px;
+}
+
+.contactss {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.contact-box img {
+    height: 49px;
+    width: 66px;
+    object-fit: contain;
+}
+
+.contact-box .first {
+    color: #999999;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.contact-box .second {
+    width: 70%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.second2 {
+    color: #F7654A;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+/* секция контактов */
+
+
+/* футер */
+
+footer {
+    background: #404149;
+    width: 100%;
+    /* position: fixed; */
+}
+
+.company {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+/* футер */
+
+
+.slick-prev:before, .slick-next:before {
+    color: black;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-size: 40px;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-dots li button:before {
+    font-size: 75px;
+    top: 10px
+}
+
+
+#bestSlider {
+    padding: 100px 0;
+}
+
+.slider2 img {
+    height: 600px;
+}
+
+#bestSlider .slick-prev {
+    left: -45px
+}
