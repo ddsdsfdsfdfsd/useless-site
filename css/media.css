@@ -328,6 +328,13 @@
     .boxbuild{
         width: 132px;
     }
+    .crooked{
+        margin-top: -100px;
+    }
+
+    .maintext {
+        margin-top: 30px;
+    }
 
 }
 
